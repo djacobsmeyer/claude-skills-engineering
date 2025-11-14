@@ -1,0 +1,10 @@
+{
+  "name": "claude-skills-engineering",
+  "owner": {
+    "name": "Don Jacobsmeyer",
+    "email": "hello@donjacobsmeyer.com"
+  },
+  "description": "Engineering-focused Claude Code skills for software development, DevOps, testing, git workflows, and development tools",
+  "homepage": "https://github.com/djacobsmeyer/claude-skills-engineering",
+  "plugins": []
+}
