@@ -80,6 +80,37 @@ Build and manage no-code backend services with Xano using MCP server integration
 - Setting up webhooks and integrations
 - Working with Xano workspace
 
+### 4. Sandbox Manager
+**Location:** `plugins/sandbox-manager/`
+
+Configure and manage Claude Code's sandboxing feature for secure, isolated code execution.
+
+**What it includes:**
+- Enable/disable sandbox mode with `/sandbox`
+- Configuration templates for 10+ development scenarios
+- Troubleshooting guide for common issues
+- Security best practices and recommendations
+- Filesystem and network permission management
+
+**Use this skill when:**
+- Working with untrusted or third-party code
+- Need to restrict network or filesystem access
+- Configuring security for different project types
+- Debugging sandbox permission issues
+- Setting up isolated development environments
+
+**Configuration templates available:**
+- Web Development (React, Vue, Next.js)
+- Python Data Science (Jupyter, pandas, ML)
+- Node.js Backend (Express, APIs)
+- Ruby on Rails
+- Go Development
+- Rust Development
+- High Security (untrusted code)
+- API Integration
+- DevOps/Infrastructure
+- Mobile Development
+
 ### Future Engineering Skills to Add
 - **Code Review Assistant** - Automated code review with linting and best practices
 - **Test Generator** - Generate unit tests, integration tests, and E2E tests

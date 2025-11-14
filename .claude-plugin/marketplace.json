@@ -39,6 +39,17 @@
         "email": "hello@donjacobsmeyer.com"
       },
       "keywords": ["xano", "backend", "no-code", "api", "database", "xanoscript", "mcp", "serverless", "functions"]
+    },
+    {
+      "name": "sandbox-manager",
+      "source": "./plugins/sandbox-manager",
+      "description": "Configure and manage Claude Code sandboxing for secure code execution. Use when user mentions sandboxing, security isolation, untrusted code, network restrictions, filesystem permissions, or wants to configure Claude Code security settings. Helps enable/disable sandbox mode, configure permissions, troubleshoot compatibility issues, and provide scenario-based configurations.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Don Jacobsmeyer",
+        "email": "hello@donjacobsmeyer.com"
+      },
+      "keywords": ["sandbox", "security", "isolation", "permissions", "network-restrictions", "filesystem", "untrusted-code", "configuration"]
     }
   ]
 }
