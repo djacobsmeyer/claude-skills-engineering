@@ -26,9 +26,61 @@ Skills are **model-invoked** (Claude autonomously decides when to use them) rath
 
 ## Available Plugins
 
-*No plugins yet - this marketplace is ready for engineering-focused skills!*
+### 1. Manage Worktrees Skill
+**Location:** `plugins/manage-worktrees-skill/`
 
-### Suggested Engineering Skills to Add
+Comprehensive git worktree management for creating, listing, and removing worktrees. Enables parallel development environments with isolated databases and ports.
+
+**What it includes:**
+- `/create_worktree` - Create isolated worktrees with auto-calculated ports
+- `/list_worktrees` - View all worktrees and their configuration
+- `/remove_worktree` - Safely remove worktrees and cleanup
+- Automatic port offset management to prevent conflicts
+- Isolated databases and environment files per worktree
+
+**Use this skill when:**
+- Setting up parallel development environments
+- Managing multiple feature branches simultaneously
+- Creating isolated testing environments
+- Coordinating team development workflows
+
+### 2. Directory Tree Viewer
+**Location:** `plugins/directory-tree-viewer/`
+
+Display directory structure as a formatted tree with visual hierarchy for understanding project organization.
+
+**What it includes:**
+- `/tree` slash command for viewing any directory
+- Custom depth arguments for controlling tree depth
+- Visual hierarchy with proper formatting
+- Works with any directory path
+
+**Use this skill when:**
+- Visualizing project structure
+- Analyzing folder organization
+- Sharing file tree views with team
+- Understanding codebase layout
+
+### 3. Xano Backend Builder
+**Location:** `plugins/xano-backend-builder/`
+
+Build and manage no-code backend services with Xano using MCP server integration.
+
+**What it includes:**
+- Database table creation and management
+- API endpoint generation
+- Custom function development with XanoScript
+- Business logic implementation
+- MCP server integration for seamless workflow
+
+**Use this skill when:**
+- Building backend APIs without traditional coding
+- Creating database schemas and tables
+- Developing serverless functions
+- Setting up webhooks and integrations
+- Working with Xano workspace
+
+### Future Engineering Skills to Add
 - **Code Review Assistant** - Automated code review with linting and best practices
 - **Test Generator** - Generate unit tests, integration tests, and E2E tests
 - **API Documentation** - Generate OpenAPI/Swagger docs from code
@@ -37,8 +89,6 @@ Skills are **model-invoked** (Claude autonomously decides when to use them) rath
 - **Database Migration Manager** - Schema migrations, seed data management
 - **Performance Profiler** - Code performance analysis and optimization suggestions
 - **Security Scanner** - Security vulnerability scanning and OWASP compliance
-- **Git Workflow Manager** - Advanced git operations, PR templates, branch strategies
-- **Infrastructure as Code** - Terraform, CloudFormation, Pulumi helpers
 
 ## How to Use This Marketplace
 

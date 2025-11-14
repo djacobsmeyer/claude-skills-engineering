@@ -6,5 +6,39 @@
   },
   "description": "Engineering-focused Claude Code skills for software development, DevOps, testing, git workflows, and development tools",
   "homepage": "https://github.com/djacobsmeyer/claude-skills-engineering",
-  "plugins": []
+  "plugins": [
+    {
+      "name": "manage-worktrees-skill",
+      "source": "./plugins/manage-worktrees-skill",
+      "description": "Comprehensive git worktree management for creating, listing, and removing worktrees. Use when the user wants to create new development environments, view worktree status, or manage the lifecycle of parallel development environments. Provides slash commands /create_worktree, /list_worktrees, and /remove_worktree.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Don Jacobsmeyer",
+        "email": "hello@donjacobsmeyer.com"
+      },
+      "keywords": ["git", "worktree", "management", "create", "list", "remove", "parallel-development"]
+    },
+    {
+      "name": "directory-tree-viewer",
+      "source": "./plugins/directory-tree-viewer",
+      "description": "Display directory structure as a formatted tree with visual hierarchy. Use when the user needs to visualize a directory structure, analyze folder organization, or share a file tree view. Provides the /tree slash command for viewing any directory with custom depth arguments.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Don Jacobsmeyer",
+        "email": "hello@donjacobsmeyer.com"
+      },
+      "keywords": ["directory", "tree", "visualization", "file-structure", "folder", "organization"]
+    },
+    {
+      "name": "xano-backend-builder",
+      "source": "./plugins/xano-backend-builder",
+      "description": "Build and manage no-code backend services with Xano using MCP server integration. Create database tables, API endpoints, custom functions, and business logic using XanoScript. Use when building backend APIs, database schemas, serverless functions, webhooks, or integrating with Xano workspace.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Don Jacobsmeyer",
+        "email": "hello@donjacobsmeyer.com"
+      },
+      "keywords": ["xano", "backend", "no-code", "api", "database", "xanoscript", "mcp", "serverless", "functions"]
+    }
+  ]
 }

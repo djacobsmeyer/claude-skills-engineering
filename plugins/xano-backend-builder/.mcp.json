@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "xano": {
+      "type": "http",
+      "url": "${XANO_MCP_URL}",
+      "headers": {
+        "Authorization": "Bearer ${XANO_MCP_TOKEN}"
+      }
+    }
+  }
+}
